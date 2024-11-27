@@ -59,11 +59,11 @@ source ~/.bashrc
 
 # Install project dependencies
 echo " - Python dependencies"
-pip3 install catkin_pkg rospkg av image opencv-python djitellopy2 pyyaml
-apt install python3-tf*
+pip3 install -U catkin_pkg rospkg av image opencv-python djitellopy2 pyyaml
+apt install -y python3-tf*
 
 echo " - CPP dependencies"
-apt install ros-jazzy-ament-cmake* ros-jazzy-tf2* ros-jazzy-rclcpp* ros-jazzy-rosgraph*
+apt install -y ros-jazzy-ament-cmake* ros-jazzy-tf2* ros-jazzy-rclcpp* ros-jazzy-rosgraph*
 
 echo " - Rviz and RQT Tools"
-apt install ros-jazzy-rviz* ros-jazzy-rqt*
+apt install -y ros-jazzy-rviz* ros-jazzy-rqt*
