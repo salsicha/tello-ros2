@@ -11,7 +11,7 @@ echo " - Installing ROS 2 jazzy"
 echo " - Install Build Tools"
 
 # C++ Build tools
-apt install build-essential gdb
+apt install -y build-essential gdb
 
 # Set UTF-8 charset
 apt update
