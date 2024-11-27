@@ -6,4 +6,4 @@ if (( $EUID > 0 )); then
 fi
 
 echo " - Install Camera Calibration"
-apt install ros-jazzy-camera-calibration ros-jazzy-camera-calibration-parsers ros-jazzy-camera-info-manager ros-jazzy-launch-testing-ament-cmake
+apt install -y ros-jazzy-camera-calibration ros-jazzy-camera-calibration-parsers ros-jazzy-camera-info-manager ros-jazzy-launch-testing-ament-cmake
